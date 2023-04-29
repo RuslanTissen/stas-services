@@ -32,7 +32,7 @@ function App() {
 						<li className="meeting"><AnchorLink href="#meeting">{trans[lang].meeting}</AnchorLink></li>
 						<li className="buenos"><AnchorLink href="#buenos">BUENOS</AnchorLink> </li>
 						<li className="tour"><AnchorLink href="#tour">{trans[lang].tour}</AnchorLink></li>
-						<li className="PRICING"><AnchorLink href="#price">{trans[lang].price}</AnchorLink></li>
+						<li className="price"><AnchorLink href="#price">{trans[lang].price}</AnchorLink></li>
 						{/* <li className='personal'><AnchorLink href="#stretching">STRETCHING</AnchorLink></li> */}
 						<GiHamburgerMenu style={{ fontSize: "1.5em" }} onClick={() => setShow(!show)} />
 					</ul >
@@ -40,7 +40,7 @@ function App() {
 						<li className="meeting"><AnchorLink href="#meeting">{trans[lang].meeting}</AnchorLink></li>
 						<li className="buenos"><AnchorLink href="#buenos">BUENOS</AnchorLink> </li>
 						<li className="tour"><AnchorLink href="#tour">{trans[lang].tour}</AnchorLink></li>
-						<li className="PRICING"><AnchorLink href="#price">{trans[lang].price}</AnchorLink></li>
+						<li className="price"><AnchorLink href="#price">{trans[lang].price}</AnchorLink></li>
 						{/* <li className="personal"><AnchorLink href="#stretching">STRETCHING</AnchorLink></li> */}
 					</ul>}
 				</div>
@@ -63,7 +63,7 @@ function App() {
 
 				<div className='meeting'>
 					<div className='meeting__one-container'>
-						<h1>You are first time in Buenos Aires</h1>
+						<h1>You are first time in Buenos Aires.</h1>
 						<div className='meeting__one-container--btn'>
 							<Button href='#' variant="contained">{trans[lang].contact}</Button>
 						</div>
@@ -76,7 +76,21 @@ function App() {
 					</div>
 				</div>
 
+				<div className='buenos'>
+					<div className='buenos__title-container'>
+						<h1>Top districts</h1>
+					</div>
 
+					<div className='buenos__districts-container'>
+						<div className='buenos__districts--img bue-img1'>Palermo</div>
+						<div className='buenos__districts--img bue-img2'>Belgrano</div>
+						<div className='buenos__districts--img bue-img3'>Tigre</div>
+					</div>
+
+					<div className='buenos__btn-container'>
+						<Button href='#' variant="contained">{trans[lang].contact}</Button>
+					</div>
+				</div>
 
 				{/* <Introduction /> */}
 

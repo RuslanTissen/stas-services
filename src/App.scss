@@ -222,7 +222,7 @@
 					text-align: center;
 					margin: 15px 0 50px 0;
 					a{
-						padding: 5px 25px;
+						padding: 1px 25px;
 						background-color: orange;
 					}
 				}
@@ -250,7 +250,6 @@
 					.meeting__one-container--btn{
 						display: flex;
 						a{
-							padding: 5px 25px;
 							background-color: orange;
 						}
 					}
@@ -296,6 +295,88 @@
 			}
 		}
 
+		// ------------------ buenos --------------------
+
+		.buenos {
+			height: fit-content;
+			margin: 50px 0 ;
+			display: flex;
+			flex-wrap: wrap;
+			.buenos__title-container {
+				flex: 1 1 100%;
+				text-align: center;
+				margin: 30px 0;
+				h1{
+					font-weight: 400;
+				}
+			}
+			.buenos__districts-container {
+				flex: 1 1 100%;
+				height: 700px;
+				display: flex;
+				flex-wrap: wrap;
+				gap: 40px;	
+				.buenos__districts--img {
+					flex: 1 1 100%;
+					width: 100%;
+					height: 29%;
+					// padding: 0 50px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					color: white;
+					font-size: 1.8rem;
+					background-position: center;
+					background-repeat: no-repeat;
+					background-size: cover;
+				}
+				.bue-img1{
+					background-image: url(./images/palermo.jpg);
+				}
+				.bue-img2{
+					background-image: url(./images/belgrano.jpg);
+				}
+				.bue-img3{
+					background-image: url(./images/tigre.jpg);
+				}
+			}
+			.buenos__btn-container{
+				flex: 1 1 100%;
+				text-align: center;
+				margin: 30px 0;
+				a{
+					padding: 1px 25px;
+					background-color: orange;
+				}
+			}
+			@media (min-width:600px) {
+				padding: 0 20px;
+				.buenos__title-container {
+					h1{
+						font-size: 4rem;
+					}
+				}
+				.buenos__districts-container {
+					height: 900px;
+					.buenos__districts--img {
+						font-size: 3rem;
+					}
+				}
+			}
+			@media (min-width:700px) {
+				.buenos__title-container {
+					h1{
+						font-size: 5rem;
+					}
+				}
+				.buenos__districts-container {
+					height: 1000px;
+					.buenos__districts--img {
+						font-size: 4rem;
+					}
+				}
+			}
+		}
 	}
 }
 
