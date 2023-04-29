@@ -1,0 +1,12 @@
+.app .app-container {
+  max-width: 1700px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+@media (min-height: 900px) {
+  .app .app-container {
+    padding: 0 30px;
+  }
+}/*# sourceMappingURL=App.css.map */

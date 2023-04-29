@@ -1,0 +1,10 @@
+/* .banner.onscroll-image-fade-in .image img {
+	-moz-transition: none;
+	-webkit-transition: none;
+	-ms-transition: none;
+	transition: none;
+}
+
+.banner.onscroll-image-fade-in.is-inactive .image img {
+	opacity: 1;
+} */

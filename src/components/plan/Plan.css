@@ -1,0 +1,76 @@
+.plan {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 30px;
+}
+.plan .plan_h1--box {
+  padding: 30px;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: black;
+}
+.plan .plan_h1--box h1 {
+  color: white;
+}
+.plan .plan__price--box {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.plan .plan__price--box .price__box {
+  flex: 1 1 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border: 1px solid rgb(134, 133, 133);
+}
+.plan .plan__price--box .price__box .price__box--h2 {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 2px solid rgb(134, 133, 133);
+}
+.plan .plan__price--box .price__box .price__box--h2 h3 {
+  font-weight: 300;
+  margin: 5px 0 30px;
+}
+.plan .plan__price--box .price__box .price__box--h2 h3 mark {
+  background-color: transparent;
+  font-size: 3rem;
+}
+.plan .plan__price--box .price__box .price__box--h2 a {
+  padding: 10px 60px;
+}
+.plan .plan__price--box .price__box .price__box--h3 {
+  padding: 30px 0;
+}
+.plan .plan__price--box .price__box .price__box--h3 h3 {
+  font-weight: 300;
+  text-align: center;
+}
+@media (min-width: 700px) {
+  .plan .plan_h1--box {
+    font-size: 2rem;
+  }
+  .plan .plan__price--box .price__box {
+    flex: 1 1 48%;
+    transition: all 0.3s;
+  }
+  .plan .plan__price--box .price__box:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 0px 11px 4px rgba(0, 0, 0, 0.16);
+  }
+}
+@media (min-width: 700px) {
+  .plan .plan_h1--box {
+    font-size: 3rem;
+  }
+}/*# sourceMappingURL=Plan.css.map */
