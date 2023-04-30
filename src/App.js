@@ -25,6 +25,8 @@ function App() {
 
 			{/* <Header /> */}
 
+{/* ---------------------- nav -----------------------------*/}
+
 			<div className="nav">
 				<div className="nav-container">
 					<ul className='ul-first'>
@@ -48,6 +50,8 @@ function App() {
 
 			<div className='app-container'>
 
+{/* -------------introduction --------------------------------*/}
+
 				<div className='introduction' id='introduction'>
 					<div className='introduction__language-container'>
 						<button className='eng' value="es" onClick={(e) => setLang(e.target.value)}>🇦🇷</button>
@@ -61,12 +65,17 @@ function App() {
 					</div>
 				</div>
 
+{/* ------------  meeting ------------------------------------*/}
+
 				<div className='meeting'>
 					<div className='meeting__one-container'>
 						<h1>You are first time in Buenos Aires.</h1>
-						<div className='meeting__one-container--btn'>
+						{/* <div className='meeting__one-container--btn'>
 							<Button href='#' variant="contained">{trans[lang].contact}</Button>
-						</div>
+						</div> */}
+						<div className="meeting__one-container--btn">
+						<a href='#' className="btn">{trans[lang].contact}</a>
+					</div>
 					</div>
 					<div className='meeting__two-container'>
 						<li>{trans[lang].meetingAtAirport}</li>
@@ -87,8 +96,11 @@ function App() {
 						<div className='buenos__districts--img bue-img3'>Tigre</div>
 					</div>
 
-					<div className='buenos__btn-container'>
+					{/* <div className='buenos__btn-container'>
 						<Button href='#' variant="contained">{trans[lang].contact}</Button>
+					</div> */}
+					<div className="buenos__btn-container">
+						<a href='#' className="btn">{trans[lang].contact}</a>
 					</div>
 				</div>
 
