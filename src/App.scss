@@ -178,12 +178,8 @@
 				height: 800px;
 			}
 			@media (min-width: 900px) {
-				height: 900px;
 				.introduction__language-container{
 					height: fit-content;
-					// button:first-child{
-					// 	margin: 0 10px;
-					// }
 					button{
 						font-size: 2rem;
 						margin: 0 10px;
@@ -193,16 +189,6 @@
 					font-size: 3rem;
 				}
 			}
-			@media (min-width: 1000px) {
-				height: 1000px;
-			}
-			@media (min-width: 1150px) {
-				height: 1150px;
-			}
-			@media (min-width: 1300px) {
-				height: 1350px;
-			}
-		
 		}
 
 		//  ------------------ interpreter ------------------
@@ -224,6 +210,7 @@
 					a{
 						padding: 1px 25px;
 						background-color: orange;
+						
 					}
 				}
 			}
