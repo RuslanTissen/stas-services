@@ -247,6 +247,10 @@
 					width: 48%;
 					flex: 1 1 48%;
 					padding-right: 30px;
+					height: 100%;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
 					.meeting__one-container--btn{
 						display: flex;
 						a{
@@ -257,7 +261,7 @@
 				.meeting__two-container {
 					width: 48%;
 					flex: 1 1 48%;
-					
+					height: 100%;
 					li{
 						font-size: 1rem;
 						font-weight: 300;
@@ -266,13 +270,14 @@
 			}
 			@media (min-width: 800px) {
 				padding: 0 30px;
+				height: 350px;
 				.meeting__one-container {
 					h1{
 						font-size: 2.5rem;
 					}
 				}
 				.meeting__two-container {
-					padding: 30px;
+					padding: 50px 30px;
 					li{
 						font-size: 1.3rem;
 					}
@@ -280,13 +285,14 @@
 			}
 			@media (min-width: 900px) {
 				padding: 0 50px;
+				margin: 100px 0;
 				.meeting__one-container {
 					h1{
 						font-size: 2.8rem;
 					}
 				}
 				.meeting__two-container {
-					padding: 30px;
+					padding: 50px 30px;
 					li{
 						font-size: 1.5rem;
 						font-weight: 400;
@@ -373,6 +379,19 @@
 					height: 1000px;
 					.buenos__districts--img {
 						font-size: 4rem;
+					}
+				}
+			}
+			@media (min-width:950px) {
+				.buenos__districts-container {
+					height: 300px;
+					gap:0;
+					justify-content: space-around;
+					margin: 50px 0 40px;
+					.buenos__districts--img {
+						height: 100%;
+						flex: 1 1 25%;
+						max-width: 25%;
 					}
 				}
 			}
