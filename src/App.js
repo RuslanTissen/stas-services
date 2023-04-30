@@ -3,7 +3,7 @@ import './App.scss';
 import Footer from './components/footer/Footer';
 import { useState } from 'react';
 import trans from './components/Trans';
-import { GiHamburgerMenu } from 'react-icons/gi';
+import { RxHamburgerMenu } from 'react-icons/rx';
 import AnchorLink from 'react-anchor-link-smooth-scroll-v2';
 import Button from '@mui/material/Button';
 
@@ -36,7 +36,7 @@ function App() {
 						<li className="tour"><AnchorLink href="#tour">{trans[lang].tour}</AnchorLink></li>
 						<li className="price"><AnchorLink href="#price">{trans[lang].price}</AnchorLink></li>
 						{/* <li className='personal'><AnchorLink href="#stretching">STRETCHING</AnchorLink></li> */}
-						<GiHamburgerMenu style={{ fontSize: "1.5em" }} onClick={() => setShow(!show)} />
+						<RxHamburgerMenu style={{ fontSize: "1.5em" }} onClick={() => setShow(!show)} />
 					</ul >
 					{show && <ul className='ul-second'>
 						<li className="meeting"><AnchorLink href="#meeting">{trans[lang].meeting}</AnchorLink></li>
@@ -59,7 +59,6 @@ function App() {
 					</div>
 
 					<div className='introduction__text-container'>
-						{/* <h1>Welcome to Buenos Aires</h1> */}
 						<h1>{trans[lang].welcome}</h1>
 						<h3>Sats Services</h3>
 					</div>
@@ -85,6 +84,8 @@ function App() {
 					</div>
 				</div>
 
+{/* --------------buenos ------------------------------------- */}
+
 				<div className='buenos'>
 					<div className='buenos__title-container'>
 						<h1>Top districts</h1>
@@ -103,6 +104,9 @@ function App() {
 						<a href='#' className="btn">{trans[lang].contact}</a>
 					</div>
 				</div>
+
+
+
 
 				{/* <Introduction /> */}
 
